@@ -1,4 +1,5 @@
 import React from 'react'
+
 function PizzaBlock({ title, price, imageUrl, types, sizes }) {
   const [activeType, setActiveType] = React.useState(0);
   const [activeSize, setActiveSize] = React.useState(0);
